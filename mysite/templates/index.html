@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% extends 'basic.html' %}
+
+{% block title %} Job Portal {% endblock %}
+{% block home %} active {% endblock %}
+{% block css %}
+{% endblock %}
+{% block body %}
+{% load static %}
+<html>
+<body>
+<div class="container-fluid mt-2">
+    <img src="{% static 'imgs/jo.jpg' %}" alt="" width="100%" height="450px">
+</div>
+    <div class="container-fluid mt-2" style="background-color: #4f868c; width: 100%;">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 style="color: aliceblue;">Бізбен хабарласыныз</h3>
+                <p style="color: aliceblue">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jumus@gmail.com</p>
+                <p style="color: aliceblue">Ұялы №.:&nbsp;&nbsp;80 8000 800</p>
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}
+</body>
+</html>
